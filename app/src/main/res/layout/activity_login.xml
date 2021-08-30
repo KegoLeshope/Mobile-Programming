@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    tools:context=".Login">
+
+<TextView
+    android:id= "@+id/Header1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sign in"
+    android:textSize="50dp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="50dp"/>
+
+<EditText
+    android:id="@+id/username1"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Username"
+    android:textSize="20dp"
+    android:textColorHint="@color/black"
+    android:layout_marginBottom="30dp"
+    android:paddingLeft="20dp"
+    android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:inputType="text" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/showpassword"
+        android:text="Show password"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/btnsignin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password1"
+        android:layout_alignParentStart="true"
+        android:text="Sign in" />
+
+
+</LinearLayout>

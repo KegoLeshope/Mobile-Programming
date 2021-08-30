@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/teal_700"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id= "@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expenses"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/itemNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item No"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:hint="Item"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:hint="Category"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:hint="Amount"
+        android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Select Date"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="20dp"
+            android:hint="Expense Date" />
+
+    <Button
+        android:id="@+id/btnAddData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Update" />
+
+</LinearLayout>
+</ScrollView>
